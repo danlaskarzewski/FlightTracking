@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cc76ca669792b8bed46407caf6dccb48 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cc76ca669792b8bed46407caf6dccb48" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cc76ca669792b8bed46407caf6dccb48 = L.map(
+                "map_cc76ca669792b8bed46407caf6dccb48",
+                {
+                    center: [29.4437, -98.469],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fbcec6f4e1da236e47a91eb5e45f1df2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cc76ca669792b8bed46407caf6dccb48);
+        
+    
+            var rectangle_fd90febad7e3a2c6a588c7b5e0dcdd6e = L.rectangle(
+                [[29.389843, -98.847659], [29.489843, -98.747659]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_cc76ca669792b8bed46407caf6dccb48);
+        
+    
+            var marker_9c99d27496223dfe676f9d9984c25797 = L.marker(
+                [29.845, -97.9851],
+                {}
+            ).addTo(map_cc76ca669792b8bed46407caf6dccb48);
+        
+    
+            var icon_9dd352529a52174db1b294aef6554d2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-147", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9c99d27496223dfe676f9d9984c25797.setIcon(icon_9dd352529a52174db1b294aef6554d2b);
+        
+    
+        var popup_3b8d5b3afa27a4a991f61d220c8b8f87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_782c2b9718e2d3277b7764a7abf2b1c9 = $(`<div id="html_782c2b9718e2d3277b7764a7abf2b1c9" style="width: 100.0%; height: 100.0%;">callsign N579TX   angle 237.81 altitude 3840.48</div>`)[0];
+                popup_3b8d5b3afa27a4a991f61d220c8b8f87.setContent(html_782c2b9718e2d3277b7764a7abf2b1c9);
+            
+        
+
+        marker_9c99d27496223dfe676f9d9984c25797.bindPopup(popup_3b8d5b3afa27a4a991f61d220c8b8f87)
+        ;
+
+        
+    
+    
+            var marker_fed5450cde1853442b179c92d43c732b = L.marker(
+                [29.6037, -98.2203],
+                {}
+            ).addTo(map_cc76ca669792b8bed46407caf6dccb48);
+        
+    
+            var icon_3415c54151b741e8f77373f7fad6d8fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-122", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fed5450cde1853442b179c92d43c732b.setIcon(icon_3415c54151b741e8f77373f7fad6d8fb);
+        
+    
+        var popup_efd389e9ab521a56d0e0ac2536859b37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f238a052ddb5b895f59c6f83d0dd5af4 = $(`<div id="html_f238a052ddb5b895f59c6f83d0dd5af4" style="width: 100.0%; height: 100.0%;">callsign AAL1406  angle 212.78 altitude 1676.4</div>`)[0];
+                popup_efd389e9ab521a56d0e0ac2536859b37.setContent(html_f238a052ddb5b895f59c6f83d0dd5af4);
+            
+        
+
+        marker_fed5450cde1853442b179c92d43c732b.bindPopup(popup_efd389e9ab521a56d0e0ac2536859b37)
+        ;
+
+        
+    
+    
+            var marker_4f40532ae7270daeea33662389db8a42 = L.marker(
+                [29.7634, -98.702],
+                {}
+            ).addTo(map_cc76ca669792b8bed46407caf6dccb48);
+        
+    
+            var icon_5397c065597f328d75dcf8f11f3aa3af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-218", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4f40532ae7270daeea33662389db8a42.setIcon(icon_5397c065597f328d75dcf8f11f3aa3af);
+        
+    
+        var popup_69d1bc31bc5f90b24e15905f70b8993e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4eb24fba129656f81266d6c3b7ae48cd = $(`<div id="html_4eb24fba129656f81266d6c3b7ae48cd" style="width: 100.0%; height: 100.0%;">callsign SWA2639  angle 308.5 altitude 3878.58</div>`)[0];
+                popup_69d1bc31bc5f90b24e15905f70b8993e.setContent(html_4eb24fba129656f81266d6c3b7ae48cd);
+            
+        
+
+        marker_4f40532ae7270daeea33662389db8a42.bindPopup(popup_69d1bc31bc5f90b24e15905f70b8993e)
+        ;
+
+        
+    
+    
+            var marker_46d767f11873694e47409c78d59677e0 = L.marker(
+                [29.2638, -98.6078],
+                {}
+            ).addTo(map_cc76ca669792b8bed46407caf6dccb48);
+        
+    
+            var icon_aacffae43a6febdebe6810362f38ecc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-115", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_46d767f11873694e47409c78d59677e0.setIcon(icon_aacffae43a6febdebe6810362f38ecc3);
+        
+    
+        var popup_5b5c1f08aebeccaa3e9b9bb07da3b9f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4efb9cf9e11ab70b1d120ac2ab20b7b6 = $(`<div id="html_4efb9cf9e11ab70b1d120ac2ab20b7b6" style="width: 100.0%; height: 100.0%;">callsign VOI391   angle 205.14 altitude 10972.8</div>`)[0];
+                popup_5b5c1f08aebeccaa3e9b9bb07da3b9f8.setContent(html_4efb9cf9e11ab70b1d120ac2ab20b7b6);
+            
+        
+
+        marker_46d767f11873694e47409c78d59677e0.bindPopup(popup_5b5c1f08aebeccaa3e9b9bb07da3b9f8)
+        ;
+
+        
+    
+    
+            var marker_63d9226b78f519bedb6dd10b00ddbc5a = L.marker(
+                [29.4167, -98.4213],
+                {}
+            ).addTo(map_cc76ca669792b8bed46407caf6dccb48);
+        
+    
+            var icon_07177854d37f2ce2f5b0ba3f53a683c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-358", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_63d9226b78f519bedb6dd10b00ddbc5a.setIcon(icon_07177854d37f2ce2f5b0ba3f53a683c3);
+        
+    
+        var popup_f4918cc7a541b6ef92ee7d4af7560ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cab752883f678655069b7e8f254d342 = $(`<div id="html_8cab752883f678655069b7e8f254d342" style="width: 100.0%; height: 100.0%;">callsign FFT2070  angle 88.87 altitude 830.58</div>`)[0];
+                popup_f4918cc7a541b6ef92ee7d4af7560ae0.setContent(html_8cab752883f678655069b7e8f254d342);
+            
+        
+
+        marker_63d9226b78f519bedb6dd10b00ddbc5a.bindPopup(popup_f4918cc7a541b6ef92ee7d4af7560ae0)
+        ;
+
+        
+    
+    
+            var marker_7b6064dcfb4eb1a50e3bd62f783c4be1 = L.marker(
+                [29.162, -98.4306],
+                {}
+            ).addTo(map_cc76ca669792b8bed46407caf6dccb48);
+        
+    
+            var icon_4be992779055612c88a2aab44c2b598b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-120", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7b6064dcfb4eb1a50e3bd62f783c4be1.setIcon(icon_4be992779055612c88a2aab44c2b598b);
+        
+    
+        var popup_67a702e6809f975f6117ebbbd35e77fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94473ce685dd08a3ab77d3d96c743696 = $(`<div id="html_94473ce685dd08a3ab77d3d96c743696" style="width: 100.0%; height: 100.0%;">callsign AIRTEC   angle 210.12 altitude 3764.28</div>`)[0];
+                popup_67a702e6809f975f6117ebbbd35e77fe.setContent(html_94473ce685dd08a3ab77d3d96c743696);
+            
+        
+
+        marker_7b6064dcfb4eb1a50e3bd62f783c4be1.bindPopup(popup_67a702e6809f975f6117ebbbd35e77fe)
+        ;
+
+        
+    
+</script>
+</html>
